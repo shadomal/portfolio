@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    position:initial;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.bg-gif {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.background-second{
+    background-color: black;
+    display: flex;
+    z-index: 1;
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.exp{
+    background-color: rgba(226, 246, 110, 0.2);
+    border-radius: 10vh;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 100vh;
+    left: -1vw;
+    width: 60vw;
+    height: 35vh;
+    padding: 6vh;
+    font-size: 16px;
+    font-family: "Comfortaa";
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    z-index: 1;
+    width: 100vw;
+    height: 6vh;
+    font-family: "Comfortaa";
+    color: white;
+    font-size: 16px;
+}
+.bg-rem{
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+    left: 50vw;
+    top: 96vh;
+    width: 60vw;
+    height: 120vh;
+
+}
+section{
+    background-color: rgba(158, 108, 223, 0.2);
+    border-radius: 10vh;
+    box-shadow: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    width: 45vw;
+    height: 85vh;
+    padding: 1vh;
+
+}
+section.left{
+    left: 2vw;
+}
+.content{
+    font-family: "Comfortaa";
+    z-index: 10;
+    size: 1.5vh;
+    position: center;
+    text-align: center;
+    color:white;
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url("assets/fonte/Comfortaa-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonte/Roboto-Thin.ttf");   
+}
