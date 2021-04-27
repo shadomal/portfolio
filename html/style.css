@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .bg-img {
-    position:initial;
+    position: initial;
     z-index: -1;
     top: 0;
     left: 0;
@@ -24,7 +24,8 @@
     height: 100vh;
     object-fit: cover;
 }
-.background-second{
+
+.background-second {
     background-color: black;
     display: flex;
     z-index: 1;
@@ -32,11 +33,10 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-
 }
 
-.exp{
-    background-color: rgba(226, 246, 110, 0.2);
+.exp {
+    background-color: rgba(42, 157, 192, 0.2);
     border-radius: 10vh;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 1);
@@ -46,6 +46,35 @@
     width: 60vw;
     height: 35vh;
     padding: 6vh;
+    font-size: 16px;
+    font-family: "Comfortaa";
+}
+
+.exp-2 {
+    background-color: rgba(42, 157, 192, 0.2);
+    border-radius: 10vh;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 40vh;
+    left: 7vw;
+    width: 60vw;
+    height: 35vh;
+    padding: 5vh;
+    font-size: 16px;
+    font-family: "Comfortaa";
+}
+.exp-3 {
+    background-color: rgba(42, 157, 192, 0.2);
+    border-radius: 10vh;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 80vh;
+    left: 1vw;
+    width: 60vw;
+    height: 35vh;
+    padding: 5vh;
     font-size: 16px;
     font-family: "Comfortaa";
 }
@@ -63,17 +92,18 @@
     color: white;
     font-size: 16px;
 }
-.bg-rem{
+
+.bg-rem {
     position: absolute;
     object-fit: cover;
     z-index: 1;
     left: 50vw;
     top: 96vh;
     width: 60vw;
-    height: 120vh;
-
+    height: 170vh;
 }
-section{
+
+section {
     background-color: rgba(158, 108, 223, 0.2);
     border-radius: 10vh;
     box-shadow: rgba(0, 0, 0, 1);
@@ -83,24 +113,27 @@ section{
     width: 45vw;
     height: 85vh;
     padding: 1vh;
-
 }
-section.left{
+
+section.left {
     left: 2vw;
 }
-.content{
+
+.content {
     font-family: "Comfortaa";
     z-index: 10;
-    size: 1.5vh;
+    font-size: 16px;
     position: center;
     text-align: center;
-    color:white;
+    color: white;
 }
+
 @font-face {
     font-family: "Comfortaa";
     src: url("assets/fonte/Comfortaa-Regular.ttf");
 }
+
 @font-face {
     font-family: "Roboto";
-    src: url("assets/fonte/Roboto-Thin.ttf");   
+    src: url("assets/fonte/Roboto-Thin.ttf");
 }
